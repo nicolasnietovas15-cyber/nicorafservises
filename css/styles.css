@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    padding-top: 100px;
+}
+
+.btn_amarillo {
+    background-color: #ffcc00;
+    color: #0b0b0b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+
+}
+
+.linias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.linias::before,
+.linias::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #ffcc00;
+}
+.linias p{
+    margin: 0;
+    font-size: 18px;
+    white-space: nowrap;
+}
+header{
+    background-color: #10243D;
+    color: #eeeeee;
+    padding: 20px;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1000;
+}
+header nav a{
+    color: #eeeeee;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.baner{
+    width: 100%;
+    height:auto;
+
+}
+.baner>img{
+    width: 100%;
+    height: auto;
+}
+.baner a{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-align: center;
+}
