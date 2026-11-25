@@ -75,3 +75,24 @@ header nav a{
     text-decoration: none;
     text-align: center;
 }
+.servicios{
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cards{
+    width: 200px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+.cards img{
+    width: 50%;
+    height: auto;
+    background-color: #10243D;
+    border-radius: 90px;
+}
